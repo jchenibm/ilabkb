@@ -1,0 +1,48 @@
+created_by: Billy Chen@IBM
+domain: ibm knowledge
+seed_examples:
+  - answer: Red Hat Enterprise Linux AI (RHEL AI) is a foundation model platform that allows users to develop, test, and deploy generative AI (GenAI) models more seamlessly.
+    question: What is Red Hat Enterprise Linux AI (RHEL AI)?
+
+  - answer: RHEL AI includes open source-licensed Granite language and code models, a supported distribution of InstructLab, and Red Hat's complete enterprise support and lifecycle promise.
+    question: What components are included in RHEL AI?
+
+  - answer: RHEL AI is integrated into Red Hat OpenShift AI, which is the underlying hybrid MLOps platform that watsonx.ai is built on.
+    question: Into which platform is RHEL AI integrated?
+
+  - answer: InstructLab is a model alignment tool that allows smaller open models to compete with models pre-trained on thousands of GPUs and aligned with human-generated instructions.
+    question: What is the purpose of InstructLab?
+
+  - answer: IBM and Red Hat have released select open source licensed Granite language and code models that are supported and indemnified by both companies.
+    question: Which companies support and indemnify the open source licensed Granite language and code models?
+
+  - answer: IBM watsonx.ai will inherit the capabilities of RHEL AI once they are released by Red Hat at no additional charge.
+    question: Which AI platform will inherit the capabilities of RHEL AI?
+
+  - answer: Arvind was named to the United States Department of Homeland Security's newly created Artificial Intelligence Safety and Security Board.
+    question: Who was appointed to the Department of Homeland Security's Artificial Intelligence Safety and Security Board?
+
+  - answer: RHEL AI aims to lower barriers to AI innovation by expanding the number of people who can work on AI initiatives and controlling costs.
+    question: What is the goal of RHEL AI in terms of AI innovation?
+
+  - answer: The InstructLab project provides a scalable, cost-effective solution for enhancing LLM capabilities and making knowledge and skills contributions accessible to a wider range of users.
+    question: How does the InstructLab project aim to enhance LLM capabilities?
+
+  - answer: RHEL AI is now available as a developer preview and will be supported on IBM Cloud, allowing enterprises to deploy generative AI more easily.
+    question: What is the current availability status of RHEL AI?
+
+  - answer: The launch of ChatGPT has generated tremendous interest in generative AI and has accelerated the pace of innovation in the field.
+    question: Which AI model's launch has significantly increased interest and innovation in generative AI?
+
+  - answer: Red Hat has been a leader in open source technologies for nearly 30 years, delivering open enterprise Linux platforms and driving containers and Kubernetes for open hybrid cloud and cloud-native computing.
+    question: How long has Red Hat been a leader in open source technologies?
+
+task_description: "To teach a language model about IBM & Redhat product knowledge. \n"
+
+document:
+  repo: <document-repository-url-goes-here>
+  commit: <commit-hash-to-use>
+  patterns:
+    - <file-search-patter 1>
+    - <file-search-patter 2>
+    - <file-search-patter 3>
